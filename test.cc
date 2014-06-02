@@ -1,10 +1,10 @@
 #include <iostream>
-#include "json.hh"
+#include "json++/json.hh"
 
 using namespace std;
 using namespace JSON;
 
-// clang++ test.cc libjson.a -std=c++11 -Wc++11-extensions -o test
+// clang++ test.cc json++/*.cc -std=c++11 -Wc++11-extensions -Wno-deprecated-register -o test
 
 int main(int argc, char** argv)
 {
