@@ -1,7 +1,9 @@
 json-cpp-example
 ================
 
-Playing around with json++
+This is just me playing around with json++
 
-NOTE: I'm checking in the compiled library but I may switch to just include the
-source code files instead.
+Compiling:
+
+clang++ test.cc json++/*.cc -std=c++11 -Wc++11-extensions -Wno-deprecated-register -o test
+
